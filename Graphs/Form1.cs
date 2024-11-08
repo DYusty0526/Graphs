@@ -11,12 +11,12 @@ namespace Graphs
         {
             InitializeComponent();
 
-            barGraph = new GraphControl
+            GraphControl = new GraphControl
             {
                 Location = new System.Drawing.Point(50, 50),
                 Size = new System.Drawing.Size(400, 300)
             };
-            Controls.Add(bargraph);
+            Controls.Add(GraphControl);
 
             btn_AddDataPoint.Click += btn_AddDataPoint_Click;
         }
@@ -24,7 +24,7 @@ namespace Graphs
         {
             if (int.TryParse(txt_DataPoint.Text, out int dataPoint))
             {
-                barGraph.AddDataPoint(dataPoint); 
+                GraphControl.AddDataPoint(dataPoint); 
                 txt_DataPoint.Clear();
             }
             else
