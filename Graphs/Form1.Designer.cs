@@ -35,7 +35,7 @@
             // 
             // btn_AddDataPoint
             // 
-            btn_AddDataPoint.Location = new Point(202, 339);
+            btn_AddDataPoint.Location = new Point(192, 414);
             btn_AddDataPoint.Name = "btn_AddDataPoint";
             btn_AddDataPoint.Size = new Size(94, 29);
             btn_AddDataPoint.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             // txt_DataPoint
             // 
-            txt_DataPoint.Location = new Point(184, 306);
+            txt_DataPoint.Location = new Point(180, 339);
             txt_DataPoint.Name = "txt_DataPoint";
             txt_DataPoint.Size = new Size(125, 27);
             txt_DataPoint.TabIndex = 2;
